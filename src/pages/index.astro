@@ -1,4 +1,6 @@
 ---
+import "../styles/styles.css";
+import Card from "../components/Card.astro";
 ---
 
 <html lang="en">
@@ -8,8 +10,46 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+		<link rel="stylesheet" href="https://use.typekit.net/aqy4phb.css">
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>Focus</h1>
+		<main>
+			<section class="grid_1_1_1_1_1">
+			<Card title="Peaceful Piano" description="Relax and indulge with beautiful piano pieces" >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+				</Card>
+			<Card title="Deep Focus" description="Keep calm and focus with ambient and post..." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			<Card title="Instrumental Study" description="Focus with stoft study music in the..." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			<Card title="Jazz vibes" description="The original and instrumental beats..." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			<Card title="Focus Flow" description="Uptempo instrumental hip hop beats." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			</section>
+		<h1>Spotify Playlists</h1>
+			<section class="grid_1_1_1_1_1">
+			<Card title="Todays Top Hits" description="The Weekend & Ariana Grande are on top of t..." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			<Card title="RapCavaiar" description="New music from Don Toliver, Quavo, Yest an..." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			<Card title="All Out 2010s" description="The biggest songs of the 2010s." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			<Card title="Rock Classics" description="Rock legends & epic songs that continue to..." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			<Card title="Chill Hits" description="Kick back to the best new and recent chill hits." >
+				<img src="../public/img/peaceful_piano.jpeg" alt="">
+			</Card>
+			</section>
+		</main>
 	</body>
 </html>
